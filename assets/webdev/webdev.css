@@ -1,0 +1,34 @@
+body {
+    background-color: #0C0C0C;
+    color: white; /* Setting text color to white for contrast */
+    font-family: Sans ; /* Optional: Choose your preferred font */
+    margin: 0; /* Removing default margin */
+    padding: 0; /* Removing default padding */
+}
+
+.container {
+    border-style:solid;
+    border-color:white;
+    background-color:#0c0c0c;
+    font-size:20px;
+    max-width: 800px; /* Adjust as per your preference */
+    margin: 0 auto; /* Centering the container horizontally */
+    padding: 200px; /* Adding some padding inside the container */
+}
+.steps{
+  border-style:solid;
+  border-color:grey;
+  padding: 20px;
+
+}
+.day1{
+  
+}
+h1 {
+    text-align: center; /* Centering the heading */
+}
+
+p {
+    line-height: 1.6; /* Adjust line height for readability */
+}
+

@@ -1,0 +1,30 @@
+body {
+    font-family: Sans;
+    background-color: #black;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.clock {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer; 
+}
+
+.clock:hover {
+    background-color: #f0f0f0; 
+}
+

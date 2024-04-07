@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px; /* Spacing between buttons */
+  justify-content: center;
+}
+
+.button {
+  background-color: #fff;
+  color: #333;
+  padding: 100px 85px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Individual button styles with creative transitions and effects */
+.button-container{
+  background-color:#559;
+  padding: 200px 80px;
+}
+.button1:hover {
+  background-color: #f08080;
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(255, 128, 128, 0.3);
+}
+
+.button2:hover {
+  font-style:italic;
+  background-color: #3498db;  /* Blue color */
+  color: #fff;
+  transform: translateY(-15px);
+  border: 2px solid #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); /* Slight text shadow */
+}
+
+.button3:hover {
+  /*background-color: #100000;*/
+  background-image: radial-gradient(#f9fc84, #f9fc84, #f9fc84);
+  border: 2px solid white;
+  animation: spin 1s linear infinite;
+  font-color:#168;
+  border-radius:30%;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.button4:hover {
+  background-image: linear-gradient(to right, #fff 0%,#f38484 50%, #a8f7fd 100%);
+  background-size: 200% 100%;
+  animation: shine 1s linear infinite;
+}
+
+@keyframes shine {
+  from { background-position: 0 0; }
+  to { background-position: 200% 0; }
+}
+
+.button5:hover {
+  background-image:url(wallpaperflare.com_wallpaper.jpg);
+  color: #f08080;
+  text-decoration: underline;
+  text-decoration-color: #f08080;  /* Underline color matches button color */
+  font-weight: bold;
+  transform:translateX(15px); 
+}
+
+.button6:hover{
+  scale:1.01;
+  font-size:x-large;
+  font-family:Sans;
+  border-radius:15%;
+  background-image:linear-gradient(to top right ,#abffab,#e5ffab,#f9fc84);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  text-decoration:line-through white;
+}
+  
+
