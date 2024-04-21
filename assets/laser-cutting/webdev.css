@@ -30,6 +30,14 @@ body {
 .d4img {
   display:flex;
 }
+.d6img {
+  display:flex;
+}
+.us {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 h1 {
     text-align: center; 
 }
